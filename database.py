@@ -9,7 +9,7 @@ def create_connection():
             dbname="postgres",
             user="s10mbv9",
             password="postgres",
-            host="localhost",
+            host="db.lczwidaqgmwlxcfewbso.supabase.co",
             port="5432"
         )
         return connection
