@@ -7,8 +7,8 @@ def create_connection():
     try:
         connection = psycopg2.connect(
             dbname="postgres",
-            user="s10mbv9",
-            password="postgres",
+            user="postgres",
+            password="akd@244689",
             host="db.lczwidaqgmwlxcfewbso.supabase.co",
             port="5432"
         )
