@@ -117,7 +117,7 @@ def send_email(receiver_email, news_articles, topic):
 st.set_page_config(page_title="Tech Newsletter", page_icon="📰")
 
 # Handle unsubscribe requests from email links
-query_params = st.experimental_get_query_params()
+query_params = st.query_params
 if "action" in query_params and query_params["action"][0] == "unsubscribe" and "email" in query_params:
     try:
         # Decode the email from the parameter
