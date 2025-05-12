@@ -3,3 +3,4 @@ requests
 pydantic
 reportlab
 psycopg2-binary
+schedule
