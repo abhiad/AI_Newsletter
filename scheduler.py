@@ -16,7 +16,7 @@ def send_weekly_newsletter():
                 send_email(email, articles, categories)
  
 # Schedule the newsletter to be sent every Friday at 9 AM
-schedule.every().tuesday.at("09:00").do(send_weekly_newsletter)
+schedule.every().tuesday.at("11:00").do(send_weekly_newsletter)
  
 def run_scheduler():
     while True:
